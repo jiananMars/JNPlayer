@@ -5,7 +5,7 @@ avplayer添加本地缓存
 具体UI部分不再赘述可以参照代码，只说一下实现边下边播以及缓存的大致实现的思路
 
 ![image]
-(https://github.com/jiananMars/JNPlayer/blob/master/2018-11-19%2017_46_07.gif)
+(https://github.com/jiananMars/JNPlayer/blob/master/2018-11-19%2017_46_07.gif?raw=true)
 
 边下边播：
 通过KVO监听item的playbackBufferEmpty，playbackLikelyToKeepUp，通过不同状态来暂停或者播放
