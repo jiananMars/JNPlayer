@@ -4,7 +4,7 @@ avplayer添加本地缓存
 由于项目需要，展示一个类似微博在tableview中边下边播，并且有本地缓存的视频播放器，网上也搜不到符合需求的轻量级视频播放器，所以自己用avplayer实现了一个，
 具体UI部分不再赘述可以参照代码，只说一下实现边下边播以及缓存的大致实现的思路
 
-![image](https://github.com/jiananMars/JNPlayer/blob/master/2018-11-19%2017_59_28.gif?raw=true)
+![image](https://github.com/jiananMars/JNPlayer/blob/master/Gif/2018-11-20%2014_17_07.gif?raw=true)
 
 边下边播：
 通过KVO监听item的playbackBufferEmpty，playbackLikelyToKeepUp，通过不同状态来暂停或者播放
